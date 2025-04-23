@@ -1,0 +1,30 @@
+var message = value;
+
+if (
+    message.includes('Unhandled Exception "Object reference not set to an instance of an object."') ||
+    message.includes('Watson report about to be sent for process') ||
+    message.includes('Windows cannot load the extensible counter DLL') ||
+    message.includes('maximum of 250 objects of type') ||
+    message.includes('Connection leak detected for key') ||
+    message.includes('Exchange ActiveSync doesn't have sufficient permissions to create the') ||
+    message.includes('not have enough copies') ||
+    message.includes('TLS 1.2 connection request') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') ||
+    message.includes('maximum of 250 objects of type ') 
+) {
+    return undefined; // Игнорируем
+}
+
+return message; // Иначе оставляем
